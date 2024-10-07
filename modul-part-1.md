@@ -114,6 +114,13 @@ Terminal pertama, kita jalankan roscore sebagai master
 roscore
 ```
 Lanjut kita buka terminal kedua untuk turtlesim  
+!! Jangan lupa untuk sourcing di setiap terminal sebelum pake perintah ROS!!!     
+
+sourcing :    
+```
+source /opt/ros/noetic/setup.bash
+```   
+lanjut
 ```
 rosrun turtlesim turtlesim_node
 ```
